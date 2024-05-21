@@ -12,7 +12,7 @@ pipeline{
             steps{
                 
                 script{
-                    sh 'mkdir sample'
+                    sh 'mkdir test1'
                     sh '''if [ echo $? == 0 ] then {
                           echo "Command ran successfully"
                           break
