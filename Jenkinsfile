@@ -15,7 +15,7 @@ pipeline{
                     sh 'mkdir BUILD'
                     sh '''if [ echo $? == 0 ]; then 
                           echo "Command ran successfully"
-                          break
+                          
                         
                         else 
                           echo "Command failed" 
