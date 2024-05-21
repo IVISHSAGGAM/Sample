@@ -12,7 +12,7 @@ pipeline{
             steps{
                 
                 script{
-                    sh 'mkdir BUILD'
+                    sh 'mkdir ${BUILD_NUMBER}'
                     sh '''if [ $? -eq 0 ]; then 
                           echo "Command ran successfully"
                           
