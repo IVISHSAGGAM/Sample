@@ -13,12 +13,12 @@ pipeline{
                 
                 script{
                     sh 'mkdir test1'
-                    sh '''if [ echo $? == 0 ] then {
+                    sh '''if [ echo $? == 0 ]; then 
                           echo "Command ran successfully"
                           break
-                        }
-                        else {
-                          echo "Command failed" }'''
+                        
+                        else 
+                          echo "Command failed" '''
 
                 }
             }
