@@ -18,7 +18,8 @@ pipeline{
                           break
                         
                         else 
-                          echo "Command failed" '''
+                          echo "Command failed" 
+                         fi '''
 
                 }
             }
