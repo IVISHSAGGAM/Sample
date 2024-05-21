@@ -13,7 +13,7 @@ pipeline{
                 
                 script{
                     sh 'mkdir BUILD'
-                    sh '''if [ echo $? == 0 ]; then 
+                    sh '''if [ $? -eq 0 ]; then 
                           echo "Command ran successfully"
                           
                         
